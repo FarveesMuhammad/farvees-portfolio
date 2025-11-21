@@ -115,22 +115,21 @@ const Hero = () => {
         <div className="container max-w-7xl mx-auto z-10 relative">
           <div className="animate-fade-in-up space-y-12">
             {/* Main heading */}
-            <div className="space-y-6">
-              <h1 className="text-7xl md:text-8xl lg:text-[12rem] font-light tracking-tighter leading-[0.85]">
+              <div className="space-y-6">
+              <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-[12rem] font-light tracking-tighter leading-[0.9] sm:leading-[0.85]">
                 <span className="block text-white font-playfair">Muhammad Farvees K</span>
               </h1>
               
-              <p className="text-lg md:text-2xl font-light text-white/80 max-w-2xl tracking-wide">
+              <p className="text-base sm:text-lg md:text-2xl font-light text-white/80 max-w-2xl tracking-wide">
                 Self-Taught Web Developer & Business Communicator
               </p>
             </div>
             
             {/* Description */}
-            <p className="text-base md:text-lg font-light text-white/70 max-w-2xl leading-relaxed">
+            <p className="text-sm sm:text-base md:text-lg font-light text-white/70 max-w-2xl leading-relaxed">
               I combine technical expertise with exceptional communication skills to deliver solutions that 
               truly understand your business needs. Self-taught, client-focused, and ready to turn your ideas into reality.
             </p>
-            
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-8">
               <Button 
@@ -155,10 +154,7 @@ const Hero = () => {
         </div>
         
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 scroll-indicator z-10">
-          <span className="text-white/50 text-xs uppercase tracking-widest">Scroll down</span>
-          <Circle className="w-6 h-6 text-white/30" />
-        </div>
+
       </section>
     </>
   );
